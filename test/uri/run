@@ -1,0 +1,1 @@
+~/.idris2/bin/idris2 --no-color -p Uri -p contrib --console-width 0 --no-banner Test.idr --exec main

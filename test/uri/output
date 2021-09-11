@@ -1,0 +1,10 @@
+Encountered undefined name Main.main
+Error: While processing right hand side of main. Can't infer type for case scrutinee
+
+Test:26:5--29:35
+ 26 |     case (traverse decodeURI lul) of 
+ 27 |         Right res => 
+ 28 |             for_ res (\x => putStrLn (show res))
+ 29 |         Left err => putStrLn "Err"
+
+Warning: compiling hole Main.main
